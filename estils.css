@@ -13,3 +13,22 @@ body {
     height: 100vh;
     justify-content: center;
 }
+.camp {
+    margin-bottom: 25px;
+    position: relative;
+}
+.camp label {
+    color: #333;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    position: relative;
+}
+.camp input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+    width: calc(100% - 24px);
+}
