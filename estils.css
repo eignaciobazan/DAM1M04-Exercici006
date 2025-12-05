@@ -32,3 +32,6 @@ body {
     transition: border-color 0.3s ease;
     width: calc(100% - 24px);
 }
+.camp input:hover {
+    border-color: #8a0b0b;
+}
