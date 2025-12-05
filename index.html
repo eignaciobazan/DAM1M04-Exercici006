@@ -12,10 +12,13 @@
             <label for="Nombre">Nombre:</label>
             <input type="text" id="Nombre" name="Nombre" placeholder="Introduce tu nombre" pattern="[A-Za-z]{15}" title="Nombre debe tener 10 letras"  maxlength="15">
         </div>
+        
+        <!-- Segundo apartado del correo -->
         <div class="camp">
-            <label for="Nombre">Nombre:</label>
-            <input type="text" id="Nombre" name="Nombre" placeholder="Introduce tu nombre">
-        </div>
+            <label for="Correo">Correo:</label>
+            <input type="email" id="correo" name="Correo" placeholder="Introduce tu correo" required pattern="[a-zA-Z0-10._%+-]+@gmail\.com">
+        </div><!-- Me piden required: que sea algo obligatorio, y el pattern para que solo acepte correos de gmail(el /.com dice que literalmente es un punto) -->
+
         <div class="camp">
             <label for="Nombre">Nombre:</label>
             <input type="text" id="Nombre" name="Nombre" placeholder="Introduce tu nombre">
