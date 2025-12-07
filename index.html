@@ -116,6 +116,16 @@
             <label for="comentaris">Comentarios:</label>
             <textarea id="comentaris" name="comentaris" rows="4" cols="40" placeholder="Escribe tus comentarios aquí..."></textarea>
         </div><!--  Aquí aplicamos el textarea, para comentarios -->
+        
+        <div class="camp">
+            <label for="Dni">Dni:</label>
+            <input type="text" id="Dni" name="Dni" placeholder="Introduce tu DNI" pattern="[0-9]{8}[A-Za-z]{1}" title="El DNI debe tener 8 números seguidos de una letra mayúscula o minúscula" required>
+        </div>
+        <div class="camp">
+            <label for="escuela">Escuela:</label>
+            <input type="text" id="escuela" name="escuela" placeholder="Introduce tu escuela" pattern="[A-Za-z]{15}" required maxlength="15">
+        </div>
+        
         <div class="orden">
         <button type="submit" class="Botom">Enviar</button>
         <button type="reset" class="Botom">Reset</button>
