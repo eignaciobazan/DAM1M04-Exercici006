@@ -35,3 +35,22 @@ body {
 .camp input:hover {
     border-color: #8a0b0b;
 }
+
+.Botom{
+    background-color: #8a0b0b;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    max-width: 5rem;
+    padding: auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Botom:hover{
+    background-color: #5e0808;
+    transform: scale(1,2)
+}
+.orden{
+    display: flex;
+    gap: 1rem;
+}

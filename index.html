@@ -74,19 +74,27 @@
             <input type="radio" id="Estudios" name="Estudios">Universidad
             <label for="Otro"></label>Otro:
             <input type="text" id="Otro" name="Otro">
-
-            
         </div>
         <!--  Decimo primero apartado del correo -->
         <div class="camp">
-            <label for="Nombre">Nombre:</label>
-            <input type="text" id="Nombre" name="Nombre" placeholder="Introduce tu nombre">
+            <label for="País">País:</label>
+            <select name="País" id="País" required>
+                <option value="Perú">Perú</option>
+                <option value="Chile">Chile</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Brasil">Brasil</option>
+            </select><!--  Aquí me piden usar el select con option -->
         </div>
+        <!--  Decimo apartado del correo -->
         <div class="camp">
-            <label for="Nombre">Nombre:</label>
-            <input type="text" id="Nombre" name="Nombre" placeholder="Introduce tu nombre">
+            <label for="comentaris">Comentarios:</label>
+            <textarea id="comentaris" name="comentaris" rows="4" cols="40" placeholder="Escribe tus comentarios aquí..."></textarea>
+        </div><!--  Aquí aplicamos el textarea, para comentarios -->
+        <div class="orden">
+        <button type="submit" class="Botom">Enviar</button>
+        <button type="reset" class="Botom">Reset</button>
         </div>
-    
     </form>
 
 </body>
