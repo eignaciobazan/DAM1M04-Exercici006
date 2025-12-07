@@ -205,5 +205,9 @@ body {
 .camp input:invalid:not(:placeholder-shown) ~ .avís {
   opacity: 1;
 }
+/*Arreglamos los required*/
+.camp input:required {
+    border-left: 4px solid #e74c3c;
+}
 
 
