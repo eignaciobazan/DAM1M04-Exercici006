@@ -71,3 +71,115 @@ body {
     justify-content: center;
     border-radius: 2rem;
 }
+            /*Imputs personalizados*/
+.camp input[type="text"] {
+    border: 2px solid #3445db;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+    width: calc(100% - 24px);
+}
+/*Imputs personalizados email*/
+.camp input[type="email"]{
+    border-radius: 1rem;
+    border: 2px solid #161617;
+    font-size: 16px;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+    width: calc(100% - 24px);
+    box-shadow:0px 1px 7px 8px #b4b4b4;
+}
+.camp input[type="email"]:hover {
+    border-color: #8a0b0b;
+    transform: scale(1,1);
+}
+/*Imputs personalizados telefono*/
+.camp input[type="tel"]{
+    border: 2px solid #161617;
+    font-size: 16px;
+    padding: 5px;
+    transition: border-color 0.3s ease;
+    width: calc(100% - 24px);
+}   
+.camp input[type="tel"]:hover {
+    border-color: #64d021;
+    transform: scale(1,1);
+}
+/*Imputs personalizados Edad*/
+.camp input[type="number"]{
+    border: 2px solid #161617;
+    font-size: 16px;
+    padding: 5px;
+    transition: border-color 0.3s ease;
+    width: calc(100% - 24px);
+}
+.camp input[type="number"]:hover {
+    border-color: #12a4c5;
+    transform: scale(1,1);
+}
+/*Imputs personalizados Fecha de nacimiento*/
+.camp input[type="date"]{
+    border: 2px solid #161617;
+    font-size: 16px;
+    padding: 5px;
+    transition: border-color 0.3s ease;
+    width: calc(100% - 24px);
+}
+.camp input[type="date"]:hover {
+    border-color: #1d1ab9;
+    transform: scale(1,1);
+}
+/*Imputs personalizados Franja horaria*/
+.camp input[type="time"]{
+    border: 2px solid #161617;
+    font-size: 16px;
+    padding: 5px;
+    transition: border-color 0.3s ease;
+    width: calc(100% - 14px);
+}
+.camp input[type="time"]:hover {
+    border-color: #181818;
+    transform: scale(1,1);
+}
+/*Imputs personalizados color preferido*/
+.camp input[type="color"]{
+    border: 2px solid #161617;
+    padding: 1px;
+    transition: border-color 0.3s ease;
+    
+}
+.camp input[type="color"]:hover {
+    border-color: #181818;
+    transform: scale(1,1);
+}
+/*Imputs personalizados Aficiones*/
+.camp input[type="checkbox"]{
+    transform: scale(1.5);
+    cursor: pointer;
+    margin-right: 10px;
+}
+/*Imputs personalizados Nivel de Estudios*/
+.camp input[type="radio"]{
+    transform: scale(1.5);
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/*Imputs personalizados País*/
+.camp select{
+    border: 2px solid #161617;
+    font-size: 16px;
+    padding: 5px;
+    transition: border-color 0.3s ease;
+    width: calc(100% - 24px);
+}
+
+/*Imputs personalizados comentarios*/
+.camp textarea{
+    border: 2px solid #161617;
+    font-size: 16px;
+    padding: 5px;
+    transition: border-color 0.3s ease;
+    width: calc(100% - 24px);
+}
