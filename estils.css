@@ -213,7 +213,7 @@ body {
   transition: opacity 0.4s ease;
 }
 
-/* Mostra el missatge quan el camp és invàlid */
+/* Mostra el missatge quan el camp és invàlid y valido */
 .camp input:invalid:focus ~ .avís,
 .camp input:invalid:not(:placeholder-shown) ~ .avís {
   opacity: 1;
@@ -227,7 +227,7 @@ body {
     border-left: 4px solid #e74c3c;
 }
 
-/*Arreglamos los checkbox*/
+/*Arreglamos los checkbox i radio*/
 /* estil base per checkbox i radio */
 .camp input[type="checkbox"],
 .camp input[type="radio"] {
