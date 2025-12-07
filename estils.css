@@ -176,6 +176,19 @@ body {
     width: calc(100% - 24px);
 }
 
-/*Editemos los cuadros según toque*/
+    /*Editemos los cuadros según toque*/
+/*Este primero focus le añado animacion a mis cuadros*/
+.camp input:focus,
+.camp select:focus,
+.camp textarea:focus {
+    border-color: rgb(89, 150, 255);
+    box-shadow: 0 0 8px rgba(89, 150, 255, .6);
+    transform: scale(1.2);
+    outline: none;
+    transition: 
+    transform 0.3s ease;
+}
+/*Ahora arreglemos los campos invalidos y validos*/
+
 
 
