@@ -24,17 +24,6 @@ body {
     margin-bottom: 8px;
     position: relative;
 }
-.camp input[type="text"] {
-    border: 2px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-    padding: 10px;
-    transition: border-color 0.3s ease;
-    width: calc(100% - 24px);
-}
-.camp input:hover {
-    border-color: #8a0b0b;
-}
 
 .Botom{
     background-color: #8a0b0b;
@@ -54,24 +43,25 @@ body {
     display: flex;
     gap: 1rem;
 }
-.cambio{
-    margin-top: -1rem;
+.cambio1{
+    margin-top: -5rem;
     background-color: red;
     align-items: center;
     justify-content: center;
     align-content: center;
 }
-.cambio a{
+.cambio1 a{
     text-decoration: none;
     color: black;
     display: flex;
     margin-top: -40rem;
-    background-color: red;
+    background-color: rgb(162, 35, 35);
     margin-right: -9rem;
     justify-content: center;
     border-radius: 2rem;
 }
-            /*Imputs personalizados*/
+
+/*Imputs personalizados*/
 .camp input[type="text"] {
     border: 2px solid #3445db;
     border-radius: 6px;
