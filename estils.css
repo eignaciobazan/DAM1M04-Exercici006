@@ -24,6 +24,8 @@ body {
     margin-bottom: 8px;
     position: relative;
 }
+/*Arreglando los campos*/
+
 
 .Botom{
     background-color: #8a0b0b;
@@ -173,3 +175,7 @@ body {
     transition: border-color 0.3s ease;
     width: calc(100% - 24px);
 }
+
+/*Editemos los cuadros según toque*/
+
+
