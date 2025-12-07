@@ -7,7 +7,7 @@ form.formulari {
 }
 body {
     align-items: center;
-    background: #f2f2f2;
+    background: #dbd4d4;
     display: flex;
     font-family: "Open Sans", sans-serif;
     height: 200vh;
@@ -53,4 +53,21 @@ body {
 .orden{
     display: flex;
     gap: 1rem;
+}
+.cambio{
+    margin-top: -1rem;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.cambio a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-top: -40rem;
+    background-color: red;
+    margin-right: -9rem;
+    justify-content: center;
+    border-radius: 2rem;
 }
