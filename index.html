@@ -14,7 +14,8 @@
         <div class="camp">
             <label for="Nombre">Nombre:</label>
             <input type="text" id="Nombre" name="Nombre" placeholder="Introduce tu nombre" pattern="[A-Za-z]+"title="Solo se permiten letras" required>
-            <span class="avís">Nombre obligatorio</span>
+            <span class="avís">Nombre invalido</span>
+            <span class="avís1">Nombre válido</span>
         </div>
 
         <!-- Segundo apartado del correo -->
@@ -22,42 +23,56 @@
             <label for="Correo">Correo:</label>
             <input type="email" id="correo" name="Correo" placeholder="Introduce tu correo" required pattern="[a-zA-Z0-9._%+-]+@gmail\.com" title="Solo se aceptan @gmail.com">
             <span class="avís">Correo obligatorio</span>
+            <span class="avís1">Correo válido</span>
         </div><!-- Me piden required: que sea algo obligatorio, y el pattern para que solo acepte correos de gmail -->
+        
         <!-- Tercer apartado del telefono -->
         <div class="camp">
             <label for="telefono">Telefono:</label>
             <input type="tel" id="telefono" name="telefono" placeholder="Introduce tu telefono" required pattern="[0-9]{9}" title="El telefono debe tener 9 numeros" maxlength="9">
             <span class="avís">Telefono obligatorio</span>
+            <span class="avís1">Telefono válido</span>
         </div>
+        
         <!-- Cuarto apartado del edad -->
         <div class="camp">
             <label for="number">Edad:</label>
             <input type="number" id="number" name="number" placeholder="Introduce tu edad" min="18" max="120" step="1" title="La edad debe estar entre 18 y 99" required>
             <span class="avís">Edad obligatoria</span>
+            <span class="avís1">Edad válida</span>
         </div><!-- Aqui usamos el tipo  telefono donde el min=Número minimo y max=Número máximo  y step=Cada cuanto salta el número-->
+        
         <!--  Quinto apartado del nacimiento -->
         <div class="camp">
             <label for="Data">Fecha de nacimiento:</label>
             <input type="date" id="Data" name="Data" required>
             <span class="avís">Fecha de nacimiento obligatoria</span>
+            <span class="avís1">Fecha de nacimiento válida</span>
         </div>
+        
         <!--  Sexto apartado del horario -->
         <div class="camp">
             <label for="Franja">Franja horaria:</label>
             <input type="time" id="Franja" name="Franja" datetime-local="HH:MM" required>
             <span class="avís">Franja horaria obligatoria</span>
+            <span class="avís1">Franja horaria válida</span>
         </div>
+        
         <!--  Septimo apartado del color preferido -->
         <div class="camp">
             <label for="color">Color preferido:</label>
             <input type="color" id="color" name="color" >
             <span class="avís">Color preferido obligatorio</span>
+            <span class="avís1">Color preferido válido</span>
         </div>
+        
         <!--  Octavo apartado del correo -->
         <div class="camp">
             <label for="control">Color lista:</label>
             <input type="range" id="control" name="control" >
+            
         </div>
+        
         <!--  Noveno apartado del correo -->
         <div class="camp">
             <p>Aficiones:</p>

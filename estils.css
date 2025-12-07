@@ -199,15 +199,32 @@ body {
   position: absolute;
   transition: opacity 0.4s ease;
 }
+.avís1 {
+  bottom: -18px;
+  color: var(--colorError);
+  font-size: 12px;
+  left: 4px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.4s ease;
+}
 
 /* Mostra el missatge quan el camp és invàlid */
 .camp input:invalid:focus ~ .avís,
 .camp input:invalid:not(:placeholder-shown) ~ .avís {
   opacity: 1;
 }
+.camp input:valid:focus ~ .avís1,
+.camp input:valid:not(:placeholder-shown) ~ .avís1 {
+  opacity: 1;
+}
 /*Arreglamos los required*/
 .camp input:required {
     border-left: 4px solid #e74c3c;
 }
+
+/*Arreglamos los checkbox*/
+
 
 
