@@ -189,6 +189,21 @@ body {
     transform 0.3s ease;
 }
 /*Ahora arreglemos los campos invalidos y validos*/
+.avís {
+  bottom: -18px;
+  color: var(--colorError);
+  font-size: 12px;
+  left: 4px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.4s ease;
+}
 
+/* Mostra el missatge quan el camp és invàlid */
+.camp input:invalid:focus ~ .avís,
+.camp input:invalid:not(:placeholder-shown) ~ .avís {
+  opacity: 1;
+}
 
 

@@ -13,38 +13,45 @@
         
         <div class="camp">
             <label for="Nombre">Nombre:</label>
-            <input type="text" id="Nombre" name="Nombre" placeholder="Introduce tu nombre" pattern="[A-Za-z]{>5}"title="Nombre obligatorio" required>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Introduce tu nombre" pattern="[A-Za-z]+"title="Solo se permiten letras" required>
+            <span class="avís">Nombre obligatorio</span>
         </div>
 
         <!-- Segundo apartado del correo -->
         <div class="camp">
             <label for="Correo">Correo:</label>
-            <input type="email" id="correo" name="Correo" placeholder="Introduce tu correo" required pattern="[a-zA-Z0-10._%+-]+ @gmail.com">
+            <input type="email" id="correo" name="Correo" placeholder="Introduce tu correo" required pattern="[a-zA-Z0-9._%+-]+@gmail\.com" title="Solo se aceptan @gmail.com">
+            <span class="avís">Correo obligatorio</span>
         </div><!-- Me piden required: que sea algo obligatorio, y el pattern para que solo acepte correos de gmail -->
-        <!-- Tercer apartado del correo -->
+        <!-- Tercer apartado del telefono -->
         <div class="camp">
             <label for="telefono">Telefono:</label>
             <input type="tel" id="telefono" name="telefono" placeholder="Introduce tu telefono" required pattern="[0-9]{9}" title="El telefono debe tener 9 numeros" maxlength="9">
+            <span class="avís">Telefono obligatorio</span>
         </div>
-        <!-- Cuarto apartado del telefono -->
+        <!-- Cuarto apartado del edad -->
         <div class="camp">
             <label for="number">Edad:</label>
             <input type="number" id="number" name="number" placeholder="Introduce tu edad" min="18" max="120" step="1" title="La edad debe estar entre 18 y 99" required>
+            <span class="avís">Edad obligatoria</span>
         </div><!-- Aqui usamos el tipo  telefono donde el min=Número minimo y max=Número máximo  y step=Cada cuanto salta el número-->
-        <!--  Quinto apartado del correo -->
+        <!--  Quinto apartado del nacimiento -->
         <div class="camp">
             <label for="Data">Fecha de nacimiento:</label>
             <input type="date" id="Data" name="Data">
+            <span class="avís">Fecha de nacimiento obligatoria</span>
         </div>
-        <!--  Sexto apartado del correo -->
+        <!--  Sexto apartado del horario -->
         <div class="camp">
             <label for="Franja">Franja horaria:</label>
             <input type="time" id="Franja" name="Franja" datetime-local="HH:MM">
+            <span class="avís">Franja horaria obligatoria</span>
         </div>
-        <!--  Septimo apartado del correo -->
+        <!--  Septimo apartado del color preferido -->
         <div class="camp">
             <label for="color">Color preferido:</label>
             <input type="color" id="color" name="color" >
+            <span class="avís">Color preferido obligatorio</span>
         </div>
         <!--  Octavo apartado del correo -->
         <div class="camp">
