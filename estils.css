@@ -63,6 +63,8 @@ body {
     border-radius: 2rem;
 }
 
+
+
 /*Imputs personalizados*/
 .camp input[type="text"] {
     border: 2px solid #3445db;
@@ -225,6 +227,20 @@ body {
 }
 
 /*Arreglamos los checkbox*/
+/* estil base per checkbox i radio */
+.camp input[type="checkbox"],
+.camp input[type="radio"] {
+  accent-color: var(--colorPrincipal);
+  cursor: pointer;
+  height: 14px;
+  transition: transform 0.2s ease;
+  width: 12px;
+}
 
+/* petita animació */
+.camp input[type="checkbox"]:active,
+.camp input[type="radio"]:active {
+  transform: scale(1,5);
+}
 
 
