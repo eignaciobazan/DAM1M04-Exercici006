@@ -5,7 +5,7 @@ form.formulari {
     padding: 30px 40px;
     width: 300px;
 }
-body {
+#index {
     align-items: center;
     background: #dbd4d4;
     display: flex;
@@ -243,5 +243,30 @@ body {
 .camp input[type="radio"]:active {
   transform: scale(1,5);
 }
+/**/
+/*Interaccion html*/
+#pagina-interaccio{
+    margin-top: 3rem;
+    background-color: #12a4c5;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200vh;
+}
 
+.barra{
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: red;
+    min-width: 10rem;
+    position: sticky;
+    top: 0;
+}
 
+.barra a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    letter-spacing: 0.2rem;
+}
