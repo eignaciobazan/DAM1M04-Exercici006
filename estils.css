@@ -295,6 +295,13 @@ con su ID */
     display: none;
 }
 
+.contenido-1,
+.contenido-2:hover{
+    transform: scale(2,2);
+    letter-spacing: 0.5rem;
+    animation-duration: 0.5s;
+}
+
 /*Pequeña interacción*/
 #pagina-interaccio:has(#tab1:checked) .contenido-1 {
   display: block;
