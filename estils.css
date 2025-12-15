@@ -245,6 +245,8 @@ form.formulari {
 }
 /**/
 /*Interaccion html*/
+/*El # me ayuda para poder editar especificamente el cuerpo
+con su ID */
 #pagina-interaccio{
     margin-top: 3rem;
     background-color: #12a4c5;
@@ -262,6 +264,7 @@ form.formulari {
     min-width: 10rem;
     position: sticky;
     top: 0;
+    margin-bottom: 1rem;
 }
 
 .barra a{
@@ -270,3 +273,34 @@ form.formulari {
     color: black;
     letter-spacing: 0.2rem;
 }
+
+.tabs{
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.contenido-1{
+    display: flex;
+}
+.contenido-2{
+    display: flex;
+}
+
+/*Podemos ocultar*/
+
+.contenido-1,
+.contenido-2{
+    display: none;
+}
+
+/*Pequeña interacción*/
+#pagina-interaccio:has(#tab1:checked) .contenido-1 {
+  display: block;
+}
+#pagina-interaccio:has(#tab2:checked) .contenido-2 {
+  display: block;
+}
+/*Como leer esto: “Cuando en esta página esté marcada la pestaña 1,
+muestra el contenido 1”*/
