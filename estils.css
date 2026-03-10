@@ -201,6 +201,8 @@ form.formulari {
   pointer-events: none;
   position: absolute;
   transition: opacity 0.4s ease;
+  
+
 }
 .avís1 {
   bottom: -18px;
@@ -211,6 +213,7 @@ form.formulari {
   pointer-events: none;
   position: absolute;
   transition: opacity 0.4s ease;
+  
 }
 
 /* Mostra el missatge quan el camp és invàlid y valido */
@@ -237,12 +240,14 @@ form.formulari {
   height: 14px;
   transition: transform 0.2s ease;
   width: 12px;
+  
 }
 
 /* petita animació */
 .camp input[type="checkbox"]:active,
 .camp input[type="radio"]:active {
   transform: scale(1,5);
+  
 }
 /**/
 /*Interaccion html*/

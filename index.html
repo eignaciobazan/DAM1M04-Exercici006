@@ -20,7 +20,7 @@
 
         <!-- Segundo apartado del correo -->
         <div class="camp">
-            <label for="Correo">Correo:</label>                                                                #cualquier nombre  dominio        cualquier terminacion:.cat,.net.com        
+            <label for="Correo">Correo:</label>                                                                        
             <input type="email" id="correo" name="Correo" placeholder="Introduce tu correo" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
             <span class="avís">Correo invalido</span>
             <span class="avís1">Correo válido</span>
@@ -37,7 +37,7 @@
         <!-- Cuarto apartado del edad -->
         <div class="camp">
             <label for="number">Edad:</label>
-            <input type="number" id="number" name="number" placeholder="Introduce tu edad" min="18" max="120" step="1" title="La edad debe estar entre 18 y 99" required>
+            <input type="number" id="number" name="number" placeholder="Introduce tu edad" step="1" title="La edad debe estar entre 18 y 99" required pattern="\d{3}" >
             <span class="avís">Edad obligatoria</span>
             <span class="avís1">Edad válida</span>
         </div><!-- Aqui usamos el tipo  telefono donde el min=Número minimo y max=Número máximo  y step=Cada cuanto salta el número-->
@@ -111,6 +111,7 @@
                 <option value="Argentina">Argentina</option>
                 <option value="Colombia">Colombia</option>
                 <option value="Brasil">Brasil</option>
+                <option value="Ecuador">Ecuador</option>
             </select><!--  Aquí me piden usar el select con option -->
         </div>
         <!--  Decimo apartado del correo -->
